@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-express-mongo-rabbit",
+  "version": "1.0.0",
+  "description": "A NodeJS starter kit with Express, Mongo and RabbitMQ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/j3rik0/nodejs-express-mongo-rabbit"
+  },
+  "keywords": [
+    "nodejs",
+    "mongo",
+    "express",
+    "rabbitmq",
+    "rabbit"
+  ],
+  "author": "J3Rik0",
+  "license": "ISC"
+}
