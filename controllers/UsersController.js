@@ -1,9 +1,9 @@
 const User = require("../models/User")
 
 const UsersController = () => {
-	const all = async (req, res, next) => {
+	const all = async () => {
 		try {
-			return res.status(200).json(User.all);
+			return res.status(200).json(User.all());
 		} carch(error) {
 			return res.status(500).json({ message: `${JSON.stringify(error)}` });
 		}
